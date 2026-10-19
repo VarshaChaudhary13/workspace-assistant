@@ -8,9 +8,7 @@ Google Calendar using read-only Google API scopes.
 - Python 3.12 or later
 - A Google Cloud OAuth client configured for the Gmail, Drive, and Calendar
   APIs
-- A Gemini API key to use the root agent, or Ollama with `llama3.1` to use the
-  alternative local-model agent
-
+- A Gemini API key to use the root agent
 ## Setup
 
 1. Create and activate a virtual environment:

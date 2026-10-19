@@ -58,14 +58,6 @@ $env:GEMINI_API_KEY = "your-api-key"
 adk run .
 ```
 
-To use the alternative Ollama-backed agent, install and start Ollama, pull the
-model, then run the package agent:
-
-```bash
-ollama pull llama3.1
-adk run workspace_assistant
-```
-
 The tools request read-only access to Gmail, Drive, and Calendar. Review the
 requested permissions before authorizing access.
 

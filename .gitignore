@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.adk/
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+service-account*.json
+*.db
+.DS_Store

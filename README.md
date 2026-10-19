@@ -64,9 +64,8 @@ requested permissions before authorizing access.
 ## Project layout
 
 ```text
-agent.py                         # Gemini-backed ADK entry point
 workspace_assistant/
-  agent.py                       # Ollama-backed alternative entry point
+  agent.py                       # Gemini-backed ADK entry point
   google_auth.py                 # Google API OAuth and service clients
   tools.py                       # Gmail, Drive, and Calendar tools
 requirements.txt
